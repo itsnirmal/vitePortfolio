@@ -15,7 +15,7 @@
                       "Impacts": "FaceGuard enhances accessibility to facial recognition technology, providing practical use cases like attendance and security systems. It also serves as a learning resource for developers, showcasing how open-source tools can create impactful solutions. Building it significantly deepened my understanding of machine learning and computer vision.\n",
                       "Conclusion": "FaceGuard is a scalable, customizable, and affordable facial recognition system, offering potential for real-world applications and future enhancements like cloud integration or deep learning improvements."
                   },
-    "image": "/src/assets/image1.jpg",
+    "image": "image1.jpg",
     "link": "https://github.com/itsnirmal/Face-Recognition-with-Python-and-OpenCV"
   }
 ]
