@@ -1,0 +1,21 @@
+[ 
+  {
+    "id": 1,
+    "name": "FaceGuard",
+    "brief": "A real-time facial recognition system that captures, trains, and identifies faces using OpenCV, enabling secure and efficient identification.",
+    "description": {
+                      "Motivation": "FaceGuard was inspired by the need for a cost-effective and adaptable facial recognition solution for security and identification. Existing systems were often expensive or rigid, motivating me to create an open-source alternative while expanding my knowledge of computer vision and machine learning.\n",
+                      "Overview": "FaceGuard is a Python-based program with three key components:\n- Dataset Creation: Captures and organizes user face images via a webcam\n- Face Training: Utilizes the Local Binary Pattern Histogram (LBPH) algorithm for training\n- Face Recognition: Detects and identifies faces in real-time, displaying names and confidence scores.\n",
+                      "Tools Used": [
+                        "- Python with OpenCV for face detection and recognition, NumPy, and Pillow for image processing.\n- Haar Cascade Classifier for pre-trained face detection.\n- A standard webcam for live input.\n"
+                      ],
+                      "Key Features": [
+                        "- Real-time face detection and recognition.\n- Organized face datasets for easy expansion.\n- Confidence-based identification of known users and imposters.\n"
+                      ],
+                      "Impacts": "FaceGuard enhances accessibility to facial recognition technology, providing practical use cases like attendance and security systems. It also serves as a learning resource for developers, showcasing how open-source tools can create impactful solutions. Building it significantly deepened my understanding of machine learning and computer vision.\n",
+                      "Conclusion": "FaceGuard is a scalable, customizable, and affordable facial recognition system, offering potential for real-world applications and future enhancements like cloud integration or deep learning improvements."
+                  },
+    "image": "/src/assets/image1.jpg",
+    "link": "https://github.com/itsnirmal/Face-Recognition-with-Python-and-OpenCV"
+  }
+]
