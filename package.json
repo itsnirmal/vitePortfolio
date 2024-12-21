@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "remix build",
+    "build": "tsc -b && vite build",
+    "vite:build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
