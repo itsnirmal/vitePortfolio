@@ -1,6 +1,25 @@
 [ 
   {
     "id": 1,
+    "name": "TickIt",
+    "brief": "A dynamic to-do list application with user accounts for saving tasks, developed using vanilla JavaScript, HTML, and CSS",
+    "description": {
+                      "Motivation": "Originally intended to be a simple static website for a to-do list application, the project evolved into a robust app supporting user accounts to save tasks securely. This evolution was driven by the app's utility in organizing daily tasks which i found effective.\n",
+                      "Overview": "TickIt is a user-friendly to-do list application featuring an elegant interface, seamless user authentication (Google Sign-In and local accounts), and persistent task saving. Access the app at https://tickitna.vercel.app/.\n",
+                      "Tools Used": [
+                        "- HTML, CSS, JavaScript\n- Express.js, MongoDB\n-JWT for authentication\n-Deployment on Vercel, Render\n"
+                      ],
+                      "Key Features": [
+                        "- Task Management: Add, edit, and delete tasks.\n- User Authentication: Secure login and registration using Google OAuth and local accounts.\n- Data Persistence: Save tasks securely for future access.\n- Responsive Design: Works seamlessly across devices.\n"
+                      ],
+                      "Impacts": "TickIt has helped streamline daily task management by providing a clean, efficient interface. Its evolution from a static to a dynamic app showcases its practicality and potential for real-world use.\n",
+                      "Conclusion": "TickIt represents the journey of turning a simple idea into a functional, real-world application. It continues to evolve as a tool for personal productivity."
+                  },
+    "image": "image2.jpg",
+    "link": "https://github.com/itsnirmal/TickIt"
+  },
+  {
+    "id": 1,
     "name": "FaceGuard",
     "brief": "A real-time facial recognition system that captures, trains, and identifies faces using OpenCV, enabling secure and efficient identification.",
     "description": {
