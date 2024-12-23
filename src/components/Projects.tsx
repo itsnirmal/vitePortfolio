@@ -64,7 +64,7 @@ const Projects = () => {
                                         />
                                     </div>
                                     </CardContent>
-                                    <CardFooter>
+                                    <CardFooter className="mt-auto">
                                         <Button 
                                                 variant="outline" 
                                                 className="w-full bg-black hover:bg-black hover:text-white text-white dark:bg-red-900"
