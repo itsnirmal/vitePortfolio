@@ -1,16 +1,39 @@
 [ 
-  {
+    {
     "id": 1,
+    "name": "Chatrixus",
+    "brief": "Chatrixus is a real-time chat application designed to connect people, and empower users with AI-assisted interactions in chat rooms.\n",
+    "description": {
+        "Motivation": "The idea for Chatrixus was born out of a desire to create an interactive platform where users can not only communicate with one another but also leverage AI capabilities to assist them in their conversations. The vision was to build a user-friendly environment where users can create or join rooms, chat with peers, and seek AI assistance, whether for personal discussions, professional collaboration, or learning purposes.\n",
+        "Overview": "Chatrixus is a modern chat application that offers real-time messaging for users in customizable chat rooms. Users can create their own chat rooms, invite others, or join existing rooms. The integration of an AI bot allows users to request assistance, answer queries, or even have conversations using the '/help' feature. With a sleek and responsive interface, the app ensures accessibility and ease of use on both desktop and mobile platforms. Key functionalities like room creation, message deletion, and copying room codes make it efficient for both personal and professional usage.\nLive on https://chatrixus.vercel.app/ \n",
+        "Tools Used": [
+            "- HTML, CSS, JavaScript\n- React and Next.js for the frontend\n- Express.js and Node.js for the backend\n- MongoDB for database management\n- JWT (JSON Web Tokens) for secure authentication\n- Pusher for real-time messaging\n- React Hot Toast for notifications\n- Vercel for frontend deployment\n- Railway for backend deployment\n"
+        ],
+        "Key Features": [
+            "- Create or join chat rooms with unique codes.\n- Real-time messaging powered by Pusher.\n- Integrated AI bot to assist users via '/help' command.\n- Role-based functionality for creators and members in chat rooms.\n- Copy chat codes to the clipboard for easy sharing.\n- Seamless login and registration functionality with authentication.\n- Dynamic room and message deletion functionality.\n"
+        ],
+        "Impacts": "Chatrixus bridges the gap between traditional chatting platforms and AI capabilities, providing users with a platform that is not only functional but also innovative. This app empowers users to connect with others while leveraging AI to enhance their communication. It creates opportunities for collaborative learning, professional networking, and improved productivity by offering real-time, efficient messaging and problem-solving features.\n",
+        "Cons": [
+            "- Limited Scalability: The current architecture may face challenges when handling a significantly larger number of simultaneous users due to server-side constraints.\n- AI Bot Limitations: The AI assistant's responses are limited to the '/help' command, which could be expanded for more dynamic interactions.\n"
+            ],
+        "Conclusion": "Chatrixus is a testament to how technology can enhance communication and collaboration. By combining human interaction with AI-driven assistance, the app provides a holistic and futuristic chatting experience. With its robust functionality and user-centric design, Chatrixus serves as a valuable tool for individuals and teams alike, promoting seamless communication and problem-solving in a modern, interactive environment.\n"
+    },
+    "image": "image3.png",
+    "link": "https://github.com/itsnirmal/ChatApp"
+    }
+,
+  {
+    "id": 2,
     "name": "TickIt",
     "brief": "A dynamic to-do list application with user accounts for saving tasks, developed using vanilla JavaScript, HTML, and CSS",
     "description": {
                       "Motivation": "Originally intended to be a simple static website for a to-do list application, the project evolved into a robust app supporting user accounts to save tasks securely. This evolution was driven by the app's utility in organizing daily tasks which i found effective.\n",
-                      "Overview": "TickIt is a user-friendly to-do list application featuring an elegant interface, seamless user authentication (Google Sign-In and local accounts), and persistent task saving. Access the app at https://tickitna.vercel.app/.\n",
+                      "Overview": "TickIt is a user-friendly to-do list application featuring an elegant interface, seamless user authentication, and persistent task saving. Access the app at https://tickitna.vercel.app/.\n",
                       "Tools Used": [
                         "- HTML, CSS, JavaScript\n- Express.js, MongoDB\n- JWT for authentication\n- Deployment on Vercel, Render\n"
                       ],
                       "Key Features": [
-                        "- Task Management: Add, edit, and delete tasks.\n- User Authentication: Secure login and registration using Google OAuth and local accounts.\n- Data Persistence: Save tasks securely for future access.\n- Responsive Design: Works seamlessly across devices.\n"
+                        "- Task Management: Add, edit, and delete tasks.\n- User Authentication: Secure login and registration.\n- Data Persistence: Save tasks securely for future access.\n- Responsive Design: Works seamlessly across devices.\n"
                       ],
                       "Impacts": "TickIt has helped streamline daily task management by providing a clean, efficient interface. Its evolution from a static to a dynamic app showcases its practicality and potential for real-world use.\n",
                       "Conclusion": "TickIt represents the journey of turning a simple idea into a functional, real-world application. It continues to evolve as a tool for personal productivity."
@@ -19,7 +42,7 @@
     "link": "https://github.com/itsnirmal/TickIt"
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "FaceGuard",
     "brief": "A real-time facial recognition system that captures, trains, and identifies faces using OpenCV, enabling secure and efficient identification.",
     "description": {
